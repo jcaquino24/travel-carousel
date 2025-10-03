@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Destinations Carousel</title>
+
+  <!-- slick styles -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="travel-destinations">
+    <div class="slider">
+
+      <div class="card">
+        <img src="images/spain.jpg" alt="Spain" class="card-img" />
+        <div class="card-content">
+          <span class="country">Spain</span>
+          <h2>Discover Spain: tapestry of culture</h2>
+          <p>
+            Explore Spain’s iconic landmarks, taste authentic cuisine,
+            and immerse yourself in its rich culture.
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/egypt.jpg" alt="Egypt" class="card-img" />
+        <div class="card-content">
+          <span class="country">Egypt</span>
+          <h2>An odyssey through ancient wonders</h2>
+          <p>
+            From the pyramids of Giza to the Nile, Egypt offers a
+            journey into the heart of ancient civilization.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/portugal.jpg" alt="Portugal" class="card-img" />
+        <div class="card-content">
+          <span class="country">Portugal</span>
+          <h2>Madeira: exploring nature's paradise</h2>
+          <p>
+            Discover Madeira’s lush landscapes and pristine beauty
+            with our thoughtfully designed tours.
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
