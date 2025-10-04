@@ -1,64 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel Destinations Carousel</title>
-
-  <!-- slick styles -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-  
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prismfly - Front End Developer Coding Challenge</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/abd0ulq.css">
+  <link rel="stylesheet" href="https://use.typekit.net/mcy6kmg.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body>
-  <section class="travel-destinations">
-    <div class="slider">
-
-      <div class="card">
-        <img src="images/spain.jpg" alt="Spain" class="card-img" />
-        <div class="card-content">
-          <span class="country">Spain</span>
-          <h2>Discover Spain: tapestry of culture</h2>
-          <p>
-            Explore Spain’s iconic landmarks, taste authentic cuisine,
-            and immerse yourself in its rich culture.
-          </p>
-          <button class="btn">Learn More</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="images/egypt.jpg" alt="Egypt" class="card-img" />
-        <div class="card-content">
-          <span class="country">Egypt</span>
-          <h2>An odyssey through ancient wonders</h2>
-          <p>
-            From the pyramids of Giza to the Nile, Egypt offers a
-            journey into the heart of ancient civilization.
-          </p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="images/portugal.jpg" alt="Portugal" class="card-img" />
-        <div class="card-content">
-          <span class="country">Portugal</span>
-          <h2>Madeira: exploring nature's paradise</h2>
-          <p>
-            Discover Madeira’s lush landscapes and pristine beauty
-            with our thoughtfully designed tours.
-          </p>
-          <button class="btn">Learn More</button>
-        </div>
-      </div>
-
+  <section class="destinations">
+  <article class="card spain">
+    <img src="assets/spain.jpg" alt="Spain">
+    <div class="content">
+      <h4>Spain</h4>
+      <h2>Discover Spain: tapestry of culture</h2>
+      <p>Embark on a journey through Spain with our expertly curated tours. Explore iconic landmarks, savor authentic cuisine, and immerse yourself in the rich tapestry of Spanish culture. Let us guide you through an adventure where every moment is filled with discovery and delight.</p>
+      <button>Learn More</button>
     </div>
-  </section>
+  </article>
 
-  <!-- scripts -->
+  <article class="card egypt">
+    <img src="assets/egypt.jpg" alt="Egypt">
+    <div class="content">
+      <h4>Egypt</h4>
+      <h2>An odyssey through ancient wonders</h2>
+      <p>From the iconic pyramids of Giza to the serene banks of the Nile, our itineraries promise an immersive experience into the heart of ancient civilization. Explore captivating temples, cruise along the timeless river, and delve into the mysteries of pharaonic history. Let us lead you on a remarkable adventure where every step reveals the magic of Egypt's past and present.</p>
+    </div>
+  </article>
+
+  <article class="card portugal">
+    <img src="assets/portugal.jpg" alt="Portugal">
+    <div class="content">
+      <h4>Portugal</h4>
+      <h2>Madeira: exploring nature's paradise</h2>
+      <p>Embark on a captivating journey to Madeira, where lush landscapes and pristine beauty await. Our thoughtfully designed tours invite you to discover the island's natural wonders, from rugged coastlines to verdant forests. Immerse yourself in the charming villages, indulge in local delicacies, and breathe in the fresh ocean air as you explore this enchanting destination.</p>
+      <button>Learn More</button>
+    </div>
+  </article>
+</section>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="script.js"></script>
+  
+
+
+  
 </body>
 </html>
